@@ -1,5 +1,10 @@
-export class AuthController{
-    register(){
-//        console.log('test');
+export class AuthController {
+    constructor () {
+    'ngInject';
+//      this.getRegister();
+  }
+
+    getRegister(){
+        console.log("thias is auth");
     }
 }

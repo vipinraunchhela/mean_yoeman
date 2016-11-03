@@ -5,8 +5,6 @@ export class MainController {
       this.getMessages();
       this.postMessage();
   }
-
-    
 getMessages(){
     var vm=this;
     this.$http.get('http://localhost:5000/api/message').then(function(result){
